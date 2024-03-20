@@ -1,0 +1,5 @@
+name = input("Escribe tu nombre")
+ventas = int(input("¿Cuantas ventas hiciste este mes?"))
+comisiones = round(ventas * 13 / 100,2)
+print(comisiones)
+print(f"{name} este mes va comisionar un ${comisiones}")
