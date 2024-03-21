@@ -10,3 +10,4 @@ print("líneass" in poema) # si la palabra se encuentra dentro de poeama
 print("porque" not in poema) # si la palabra NO se encuentra
 print(len(poema)) # nos dice el largo que tiene poema
 
+
