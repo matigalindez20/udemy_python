@@ -22,3 +22,9 @@ print(lista)
 print(lista2)
 lista2.reverse()
 print(lista2)
+
+#metodo join para unir con espacios las listas ->
+
+prueba =["primera","palabra","muchas"]
+final = " ".join(prueba)
+print(final)
