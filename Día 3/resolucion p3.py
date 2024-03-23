@@ -37,3 +37,6 @@ print(f"El texto invertido quedaría de la siguiente forma: '{reversa}'")
 
 print("\n")
 print("BUSCANDO LA PALABRA PYHTON")
+busqueda = "python" in texto
+mi_dic = {True:"SI",False:"NO"}
+print(f"La palabra 'Python' {mi_dic[busqueda]} se encuentra en el texto")
